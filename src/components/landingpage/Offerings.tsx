@@ -36,7 +36,7 @@ const Offerings = () => {
                       {offerings.map((offering) => (
                         <div 
                         data-aos="fade-up"
-                        data-aos-delay={`${offering.id * 200}`}
+                        data-aos-delay={`${offering.id * 100}`}
                         data-aos-duration="800"
                         data-aos-once="true"
                         key={offering.id} className={` ${offering.id === 7 ? "col-span-2" : "col-span-1" } justify-self-start text-start  py-6 px-6 custom-glow-border-2 transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_10px_30px_rgba(20,102,135,0.6),_0_4px_8px_rgba(0,0,0,0.3)] `} style={{ borderImage: 'linear-gradient(180deg, #000000 0%, #144663 100%)', borderImageSlice: 1 }} >
