@@ -23,7 +23,7 @@ const offerings: {id: number, image:string, title:string, subtitle:string}[] = [
 
 const Offerings = () => {
   return (
-    <section id='offerings'>
+    <section id='offerings' className="mt-6 md:mt-0">
         <main>
               <div id="offerings" className="pt-16 mx-4 md:mx-12 lg:mx-24">
                   <div className="text-center block space-y-4">

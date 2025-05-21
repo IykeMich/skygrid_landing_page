@@ -27,7 +27,7 @@ export default function Clients() {
                   </div>
 
                   {/* <div className="grid grid-cols-3 gap-12 mt-24"> */}
-                  <div className="flex gap-12 mt-12 md:mt-24 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
+                  <div className="flex gap-12 my-12 md:my-24 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
                         <motion.div className="flex gap-14 flex-none pr-14"
                         animate={{
                             translateX: "-50%"
