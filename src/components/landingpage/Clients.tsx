@@ -6,14 +6,14 @@ import client5 from "@/assets/images/clients/client5.png"
 import client6 from "@/assets/images/clients/client6.png"
 import { motion } from "framer-motion"
 
-const clients: {id:number, image:string}[] = [
-    {id: 1, image: client1},
-    {id: 2, image: client2},
-    {id: 3, image: client3},
-    {id: 4, image: client4},
-    {id: 5, image: client5},
-    {id: 6, image: client6},
-]
+// const clients: {id:number, image:string}[] = [
+//     {id: 1, image: client1},
+//     {id: 2, image: client2},
+//     {id: 3, image: client3},
+//     {id: 4, image: client4},
+//     {id: 5, image: client5},
+//     {id: 6, image: client6},
+// ]
 
 export default function Clients() {
   return (

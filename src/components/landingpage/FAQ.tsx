@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const faqs: {question: string, answer: string}[] = [
   { question: "What services does SkyGrid offer?", answer: "SkyGrid provides cloud computing and software engineering services, helping businesses leverage technology to drive innovation and growth." },
@@ -19,7 +18,7 @@ const faqs: {question: string, answer: string}[] = [
 
 export default function Faq() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
-  const [showAll, setShowAll] = useState(false);
+  // const [showAll, setShowAll] = useState(false);
 
   // Toggle function for individual FAQ items
   const toggleFAQ = (index: number) => {

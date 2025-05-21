@@ -9,7 +9,6 @@ import service4 from "@/assets/images/hero/services4.png"
 import service5 from "@/assets/images/hero/services5.png"
 import service6 from "@/assets/images/hero/services6.png"
 import { Check } from "lucide-react"
-import { div } from "motion/react-client"
 
 
 const services: {id: number, title:string, image:string}[] = [
