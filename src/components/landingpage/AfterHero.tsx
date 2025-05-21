@@ -102,24 +102,7 @@ export default function AfterHero() {
             className="font-normal text-[16px] leading-[160%] text-[#A1B2BC]">Your Trusted Partner in Cloud & Software Innovation</h1>
 
             <div className="mt-6 md:mx-12 lg:mx-24 gap-12">
-                <div className="mt-6 flex md:hidden space-x-12 py-6 px-8 mb-24">
-                    <div className="md:mx-6 lg:mx-12 block space-y-8 md:space-y-0 md:flex w-full justify-between">
-                        {services.map((service) => (
-                        <div
-                        data-aos="fade-up"
-                        data-aos-delay={`${service.id * 200}`}
-                        data-aos-duration="800"
-                        data-aos-once="true"
-                        key={service.id} className="flex mx-auto md:mx-0 items-center py-3">
-                            <div className="rounded-full justify-center items-center flex border-4 border-[#93CFF0] w-[67px] h-[67px] mr-4">
-                                <img src={service.image} alt="" className={` ${service.id === 3 ? 'h-6' : 'h-7'} w-8 `} />
-                            </div>
-                            <h1 className="font-medium text-xl">{service.title}</h1>
-                        </div>
-                        ))}
-                    </div>
-                </div>
-                <div className="mt-6 btn-gradient-2 hidden md:flex space-x-12 py-6 px-8 mb-24">
+                <div className="mt-6 btn-gradient-2 flex space-x-12 py-6 px-8 mb-24 mx-8">
                     <div className="md:mx-6 lg:mx-12 block space-y-8 md:space-y-0 md:flex w-full justify-between">
                         {services.map((service) => (
                         <div
