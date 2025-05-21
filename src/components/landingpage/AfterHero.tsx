@@ -102,7 +102,7 @@ export default function AfterHero() {
             className="font-normal text-[16px] leading-[160%] text-[#A1B2BC]">Your Trusted Partner in Cloud & Software Innovation</h1>
 
             <div className="mt-6 md:mx-12 lg:mx-24 gap-12">
-                <div className="mt-6 btn-gradient-2 flex space-x-12 py-6 px-8 mb-24 mx-8">
+                <div className="mt-6 btn-gradient-2 flex space-x-12 py-6 px-8 mb-24 mx-4">
                     <div className="md:mx-6 lg:mx-12 block space-y-8 md:space-y-0 md:flex w-full justify-between">
                         {services.map((service) => (
                         <div
