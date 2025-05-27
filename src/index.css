@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  background: #000000;
+  color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR BUTTON */
+.btn-gradient {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  background: linear-gradient(90deg, #2594D3 0%, #1E7AAF 50%, #228AC6 100%);
+  border: 2px solid transparent;
+  border-radius: 3px;
+
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image:
+    linear-gradient(90deg, #2594D3 0%, #1E7AAF 50%, #228AC6 100%),
+    linear-gradient(88.2deg, #279EE2 2.98%, rgba(255,255,255,0.5) 51.44%, #279EE2 99.9%);
+}
+
+.btn-gradient:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(30, 122, 175, 0.4);
+  background-image:
+    linear-gradient(90deg, #228AC6 0%, #1E7AAF 50%, #2594D3 100%), /* subtle gradient shift */
+    linear-gradient(88.2deg, #279EE2 2.98%, rgba(255,255,255,0.6) 51.44%, #279EE2 99.9%);
+}
+
+
+
+/* HERO BUTTONS */
+.btn-gradient-border {
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(88.2deg, #C8EBFF 2.98%, #FFFFFF 51.44%, #C8EBFF 99.9%);
+  background: transparent;
+  transition: background 0.3s ease, border-image-source 0.3s ease;
+}
+
+.btn-gradient-border:hover {
+  background: linear-gradient(90deg, #2594D3 0%, #1E7AAF 50%, #228AC6 100%);
+  border-image-source: linear-gradient(88.2deg, #279EE2 2.98%, rgba(255, 255, 255, 0.5) 51.44%, #279EE2 99.9%);
+}
+
+.btn-gradient:hover {
+  /* On hover: add second gradient layer underneath */
+  background-image:
+    linear-gradient(90deg, #2594D3 0%, #1E7AAF 50%, #228AC6 100%),
+    linear-gradient(88.2deg, #279EE2 2.98%, rgba(255, 255, 255, 0.5) 51.44%, #279EE2 99.9%);
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+  border: 2px solid transparent;
+}
+
+
+/* HERO BUTTON 2 - FULLY ROUNDED */
+.btn-gradient-2-full {
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+
+  /* White background with gradient border */
+  background: linear-gradient(black, black) padding-box,
+              linear-gradient(90deg, #3D5A63 0%, #FBB03B 50%, #44B6DB 100%) border-box;
+  border-radius: 50em;         /* fully rounded */
+  border: 1px solid transparent; /* thickness of border */
+}
+
+.btn-gradient-2 {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-radius: 3px;
+  border-image-source: linear-gradient(91.72deg, #44B6DB 0.35%, #FBB03B 50.18%, #44B6DB 100%);
+}
+
+/* GLOWING BORDER */
+.custom-glow-border {
+  background: linear-gradient(270deg, #0C2F44 0%, #0E4465 73.12%, #0C2F44 100%);
+  border: 1.08px solid;
+  border-image-slice: 1;
+  border-radius: 3px;
+  border-image-source: linear-gradient(141.57deg, #000000 1.44%, #1181F9 50.82%, #000000 100%);
+}
+
+/* OFFERING GLOWING BORDER */
+.custom-glow-border-2 {
+  background: #041017;
+
+  /* Border styling */
+  border: 1px solid;
+  border-radius: 6px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(180deg, #000000 0%, #144663 100%);
+
+  /* Transition for hover effects */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover: Glowing & Floating 3D */
+.custom-glow-border:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(20, 102, 135, 0.6), 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/* OFFERING GLOWING BORDER - NO 3D */
+.custom-glow-border-no-hover {
+  background: linear-gradient(270deg, #0C2F44 0%, #0E4465 73.12%, #0C2F44 100%);
+  border: 1.08px solid;
+  border-image-slice: 1;
+  border-radius: 3px;
+  border-image-source: linear-gradient(141.57deg, #000000 1.44%, #1181F9 50.82%, #000000 100%);
+}
+.custom-glow-border-no-hover:hover {
+  box-shadow: 0 10px 30px rgba(20, 102, 135, 0.6), 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* FAQ BTN */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .faq-gradient-border {
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(180deg, #000000, #144663);
+    border-image-slice: 1;
+    border-radius: 7px; /* Custom border-radius */
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+
+  .faq-gradient-border:hover,
+  .faq-gradient-border:focus {
+    box-shadow: 0 0 8px 2px rgba(20, 70, 99, 0.6);
+    outline: none;
+  }
+
+  /* Optional: glow animation */
+  @keyframes glow-pulse {
+    0% {
+      box-shadow: 0 0 8px 2px rgba(20, 70, 99, 0.6);
+    }
+    50% {
+      box-shadow: 0 0 12px 4px rgba(20, 70, 99, 0.9);
+    }
+    100% {
+      box-shadow: 0 0 8px 2px rgba(20, 70, 99, 0.6);
+    }
+  }
+
+  .faq-gradient-border:hover,
+  .faq-gradient-border:focus {
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+}
+
+
+
+
+
+
+
+
+.bg-custom-radial {
+  background: radial-gradient(70% 55% at 15% 50%, rgba(39, 158, 226, 0.47) 5.5%, rgba(0, 0, 0, 0) 100%);
+}
+
+  .tap-effect {
+  @apply cursor-pointer transition duration-150 ease-in-out transform active:scale-95;
+}
+
+
+@font-face {
+  font-family: geologica;
+  src: url("@/assets/fonts/Geologica/Geologica.ttf") format("truetype");
+}
+
+
