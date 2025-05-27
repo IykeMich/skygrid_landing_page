@@ -104,8 +104,8 @@ export default function AfterHero() {
             className="font-normal text-[16px] leading-[160%] text-[#A1B2BC]">Your Trusted Partner in Cloud & Software Innovation</h1>
 
             <div className="mt-6 gap-12">
-                <div className="mt-6 btn-gradient-2 flex py-6 px-8 mb-24">
-                    <div className="md:mx-2 xl:mx-12 block space-y-10 md:space-y-0 md:flex w-full justify-between">
+                <div className="mt-6 btn-gradient-2 flex py-6 px-8 mx-4 mb-24">
+                    <div className="md:mx-4 xl:mx-12 block space-y-10 md:space-y-0 md:flex w-full justify-between">
                         {services.map((service) => (
                         <div
                         data-aos="fade-up"

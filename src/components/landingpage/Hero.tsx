@@ -65,11 +65,11 @@ export default function Hero() {
         We deliver excellent cloud computing and software engineering solutions <br/> to help your business scale with speed, security, and precision.
       </p>
       <div className="mt-12 block w-full md:flex space-y-6 md:space-y-0 md:gap-6">
-        <button className="font-semibold md:text-[12px] lg:text-[14px] xl:text-[16px] leading-[100%] border-2 btn-gradient px-6 text-white w-full md:w-[200.5px] md:h-[36px] xl:w-[243px] xl:h-[45px] rounded-[3px]
+        <button className="font-semibold md:text-[12px] lg:text-[14px] xl:text-[16px] leading-[100%] border-2 btn-gradient px-6 text-white w-full h-[42px] md:w-[200.5px] md:h-[36px] xl:w-[243px] xl:h-[45px] rounded-[3px]
         hover:shadow-md hover:shadow-slate-700 transition ease-linear duration-300 tap-effect">
           Get Started
         </button>
-        <button className="font-semibold flex justify-center items-center md:text-[12px] lg:text-[14px] xl:text-[16px] leading-[100%] border-2 btn-gradient-border px-6 text-white w-full md:w-[200.5px] md:h-[36px] xl:w-[243px] xl:h-[45px] rounded-[3px]
+        <button className="font-semibold flex justify-center items-center md:text-[12px] lg:text-[14px] xl:text-[16px] leading-[100%] border-2 btn-gradient-border px-6 text-white w-full h-[42px] md:w-[200.5px] md:h-[36px] xl:w-[243px] xl:h-[45px] rounded-[3px]
         transition-all ease-linear duration-700 tap-effect">
           Explore Services <span className="ml-3"> &gt; </span>
         </button>
