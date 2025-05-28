@@ -76,7 +76,7 @@ export default function Hero() {
       </div>
       <div className="mt-6 md:mt-12 flex justify-center items-center md:justify-start gap-6">
         <img src={skyaws} alt="AWS PARTNER" className="w-32 md:w-52 h-auto" />
-        <p className="font-normal text-[10.81px] md:text-base leading-[160%] text-[#A1B2BC]">AWS Select Tier Partner</p>
+        <p className="font-normal text-[10.81px] md:text-base leading-[160%] text-[#A1B2BC]"> Select Tier Partner</p>
       </div>
     </div>
 
