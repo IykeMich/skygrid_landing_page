@@ -43,7 +43,10 @@ export default function Contact() {
                                 </div>
                                 <div className="block space-y-4">
                                     <h1 className="font-normal text-[16px] leading-[100%] tracking-wide">Email</h1>
-                                    <p className="font-normal text-[14px] leading-[100%] tracking-wide text-[#D4ECF9]">support@skygridtech.org</p>
+                                    {/* <p className="font-normal text-[14px] leading-[100%] tracking-wide text-[#D4ECF9]">support@skygridtech.org</p> */}
+                                    <p className="font-normal text-[14px] leading-[100%] tracking-wide text-[#D4ECF9]">
+                                        <a href="mailto:support@skygridtech.org">support@skygridtech.org</a>
+                                        </p>
                                 </div>
                             </div>
                             <div className="flex space-x-3">
@@ -52,7 +55,7 @@ export default function Contact() {
                                 </div>
                                 <div className="block space-y-4">
                                     <h1 className="font-normal text-[16px] leading-[100%] tracking-wide">Phone</h1>
-                                    <p className="font-normal text-[14px] leading-[100%] tracking-wide text-[#D4ECF9]">+234 815 342 8584 | Chat on WhatsApp</p>
+                                    <p className="font-normal text-[14px] leading-[100%] tracking-wide text-[#D4ECF9]">+234 815 342 8584 | <a href="https://wa.me/+2348153428584" target="_blank">Chat on WhatsApp</a></p>
                                 </div>
                             </div>
                             <div className="flex space-x-3">
@@ -62,9 +65,11 @@ export default function Contact() {
                                 <div className="block space-y-4">
                                     <h1 className="font-normal text-[16px] leading-[100%] tracking-wide">Location</h1>
                                     <p className="font-normal text-[14px] leading-snug tracking-wide text-[#D4ECF9]">
-                                        HSE 13/15 Adegbenle Bolarinwa, <br />
-                                        Chevy View Estate, <br />
-                                        Chevron Lekki
+                                        <a href="https://www.google.com/maps?q=HSE+13/15+Adegbenle+Bolarinwa,+Chevy+View+Estate,+Chevron+Lekki" target="_blank">
+                                            HSE 13/15 Adegbenle Bolarinwa, <br />
+                                            Chevy View Estate, <br />
+                                            Chevron Lekki
+                                        </a>
                                     </p>
                                 </div>
                             </div>
