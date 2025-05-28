@@ -60,7 +60,7 @@ export default function Contact() {
                                     <MapPin />
                                 </div>
                                 <div className="block space-y-4">
-                                    <h1 className="font-normal text-[16px] leading-[100%] tracking-wide">Email</h1>
+                                    <h1 className="font-normal text-[16px] leading-[100%] tracking-wide">Location</h1>
                                     <p className="font-normal text-[14px] leading-snug tracking-wide text-[#D4ECF9]">
                                         HSE 13/15 Adegbenle Bolarinwa, <br />
                                         Chevy View Estate, <br />
