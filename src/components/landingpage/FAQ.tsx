@@ -26,7 +26,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="w-full pt-16 mb-12">
+    <div id="faq" className="w-full pt-16 mb-12">
 
       <div className="my-12 px-8 text-center text-[#E9F5FC]">
         <h1 className="text-xl md:text-3xl leading-[100%] tracking-wide">FAQs</h1>

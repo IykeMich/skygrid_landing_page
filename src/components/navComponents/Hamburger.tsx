@@ -48,8 +48,8 @@ export default function Hamburger() {
 
 const NavLinks: {id: number, name: string, path: string}[] = [
     {id: 1, name: "Home", path: "/"},
-    {id: 2, name: "About Us", path: "/about"},
-    {id: 3, name: "Case Studies", path: "/case"},
-    {id: 4, name: "Offerings", path: "/offerings"},
+    {id: 2, name: "About Us", path: "#faq"},
+    {id: 3, name: "Case Studies", path: "#clients"},
+    {id: 4, name: "Offerings", path: "#offerings"},
     {id: 5, name: "Contact Us", path: "#contact"},
 ]

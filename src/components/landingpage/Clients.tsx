@@ -17,7 +17,7 @@ import { motion } from "framer-motion"
 
 export default function Clients() {
   return (
-      <section id='offerings' className="pt-12 md:pt-28 pb-6 md:pb-16 relative overflow-x-clip">
+      <section id='clients' className="pt-12 md:pt-28 pb-6 md:pb-16 relative overflow-x-clip">
           <main>
               <div id="offerings" className="pt-16 mx-4 md:mx-12 xl:mx-24">
                   <div className="text-center block space-y-4">
