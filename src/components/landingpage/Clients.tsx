@@ -22,7 +22,7 @@ export default function Clients() {
               <div id="offerings" className="pt-16 mx-4 md:mx-12 xl:mx-24">
                   <div className="text-center block space-y-4">
                       <button className="font-normal text-[12px] leading-[160%] inline-flex justify-center btn-gradient-2-full" >OUR CLIENTS</button>
-                      <h1 className="font-medium text-[30px] leading-1 tracking-wide">A Trusted by Industry Leaders</h1>
+                      <h1 className="font-medium text-[30px] leading-1 tracking-wide">Trusted by Industry Leaders</h1>
                       <p className="font-normal text-[16px] leading-[160%]">We're proud to work with these innovative companies who trust our expertise</p>
                   </div>
 
