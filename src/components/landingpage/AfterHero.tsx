@@ -122,7 +122,7 @@ export default function AfterHero() {
                     </div>
                 </div>
 
-                <div id="offerings" className="pt-16">
+                <div className="pt-16">
                     {/* <div className=" text-center"> */}
                         <div className="text-center block space-y-4">
                             <button 
