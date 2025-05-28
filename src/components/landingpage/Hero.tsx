@@ -1,6 +1,6 @@
 import hero from "@/assets/images/hero.png"
 import { motion } from "framer-motion"
-import skyaws from "@/assets/images/sky_aws.png"
+import skyaws from "@/assets/images/aws.png"
 
 
 export default function Hero() {
