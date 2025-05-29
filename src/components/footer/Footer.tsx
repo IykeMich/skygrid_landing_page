@@ -1,4 +1,4 @@
-import { BsFacebook, BsInstagram, BsLinkedin, BsTwitterX } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsTiktok, BsTwitterX } from "react-icons/bs";
 import Logo from "@/assets/images/logo.png"
 
 export default function Footer() {
@@ -14,10 +14,11 @@ export default function Footer() {
                 we’ve perfected our cleaning methods to ensure every job is done right.
                 </p>
                 <div className="flex w-[80%] md:w-[50%] justify-start items-center gap-8 pt-8 socials text-[#279EE2] text-shadow">
-                    <a href="contact"><BsInstagram className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
-                    <a href="contact"><BsFacebook className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
-                    <a href="contact"><BsLinkedin className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
-                    <a href="contact"><BsTwitterX className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
+                    <a href="https://www.instagram.com/skygridtech/" target="_blank" ><BsInstagram className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
+                    <a href="https://www.tiktok.com/@skygridtech" target="_blank"><BsTiktok className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
+                    <a href="contact" target="_blank"><BsFacebook className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
+                    <a href="contact" target="_blank"><BsLinkedin className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
+                    <a href="contact" target="_blank"><BsTwitterX className="w-8 h-6 hover:scale-110 transition duration-200"/></a>
                 </div>
             </div>
         </div>
