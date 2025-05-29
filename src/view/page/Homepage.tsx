@@ -12,17 +12,20 @@ import {Helmet} from "react-helmet-async"
 const Homepage = () => {
   return (
     <>
+
     <Helmet>
+      <title>Skygridtech | Cloud & Software Solutions</title>
+      <meta name="description" content="Skygridtech delivers scalable, secure cloud computing and software engineering solutions to grow your business." />
       <meta property="og:title" content="Skygridtech | Cloud & Software Solutions" />
       <meta property="og:description" content="Scalable cloud computing and software engineering to grow your business." />
-      <meta property="og:image" content="/path-to-image.jpg" />
+      <meta property="og:image" content="https://www.skygridtech.com/images/og-image.jpg" />
+      <meta name="twitter:image" content="https://www.skygridtech.com/images/twitter-image.jpg" />
       <meta property="og:url" content="https://www.skygridtech.com" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Skygridtech | Cloud & Software Solutions" />
       <meta name="twitter:description" content="Accelerate your business with cloud and code." />
-      <meta name="twitter:image" content="/path-to-image.jpg" />
-
     </Helmet>
+
     <DefaultLayout>
       <Hero/>
       <AfterHero />
