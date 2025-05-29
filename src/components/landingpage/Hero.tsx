@@ -58,12 +58,12 @@ export default function Hero() {
       className="font-semibold text-[38px] lg:text-[48px] xl:text-[54px] leading-normal md:leading-[120%] -tracking-[2%] pb-6 font-sans">
         Powering Innovation <br /> Through Cloud & Code
       </h1>
-      <p
+      <h2
       data-aos="fade-up"
       data-aos-delay="500"
       className="font-normal md:text-[12px] lg:text-[14px] xl:text-[16px] leading-[150%] pb-4">
         We deliver excellent cloud computing and software engineering solutions <br/> to help your business scale with speed, security, and precision.
-      </p>
+      </h2>
       <div className="mt-12 lg:mt-20 block w-full md:flex space-y-6 md:space-y-0 md:gap-6">
         <button className="font-semibold md:text-[12px] lg:text-[14px] xl:text-[16px] leading-[100%] border-2 btn-gradient px-6 text-white w-full h-[42px] md:w-[200.5px] md:h-[36px] xl:w-[243px] xl:h-[45px] rounded-[3px]
         hover:shadow-md hover:shadow-slate-700 transition ease-linear duration-300 tap-effect">
